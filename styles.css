@@ -1,0 +1,223 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant,-apple-system,
+    BlinkMacSystemFont,Segoe UI,Roboto,
+    Helvetica,Arial,sans-serif; /* Copy 
+    font from any website and paste in 
+    the universal selector to apply to 
+    the whole web page*/
+    box-sizing: border-box; /* Makes sure that the height and 
+    width specified in the box includes the border and padding inside it only */
+}
+
+header
+{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    justify-content: space-between; /* Space the items in the container at equal distances*/
+    align-items: center;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+
+}
+
+.myntra-logo
+{
+    height: 45px;
+}
+
+.logo
+{
+    margin-left: 4%;
+}
+
+.action-bar
+{
+    margin-right: 4%;
+}
+
+.nav-items
+{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 500px;
+    align-items: center;
+    flex-basis: equal;
+}
+
+.nav-items a
+{
+    padding: 28px 0px;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-decoration: none; /* Removes the unnecessary underline from the anchor elements*/
+    text-transform: uppercase;
+    box-sizing: content-box;
+    border-bottom: 5px solid #ffffff;
+}
+
+#superscript
+{
+    font-size: 10px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ff3f6c;
+}
+
+.search-bar
+{
+    height: 40px;
+    min-width: 250px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.search-input
+{
+    background: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 100%;
+    border-style: none;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.search-icon
+{
+    box-sizing: content-box;
+    color: #717288;
+    font-weight: 300;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.action-bar
+{
+    display:flex;
+    min-width: 200px;
+    justify-content: space-around;
+}
+
+.action-container
+{
+    display: flex;
+    flex-direction: column; /* aligns the items vertically */
+    align-items: center;
+    padding: 5px;
+}
+
+a#men:hover /* Applies the properties below only on hovering*/
+{
+    border-bottom: 5px solid #EE5F73;
+}
+
+a#women:hover 
+{
+    border-bottom: 5px solid #FB56C1;
+}
+
+a#kids:hover 
+{
+    border-bottom: 5px solid #F26A10;
+}
+
+a#home:hover 
+{
+    border-bottom: 5px solid #F2C210;
+}
+
+a#beauty:hover 
+{
+    border-bottom: 5px solid #0DB7AF;
+}
+
+a#studio:hover 
+{
+    border-bottom: 5px solid #FF3F6C;
+}
+
+.banner-container
+{
+    margin: 40px 0;
+}
+
+.banner-image
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.category-heading
+{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category-item {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-evenly;
+}
+
+.sale-item {
+    width: 250px;
+    height: auto;
+}
+
+.footer
+{
+    background-color: #FAFBFC;
+}
+
+.footer-container
+{
+    padding: 30px 0px 40px 0px;
+    background-color: #FAFBFC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-container h3
+{
+    color: #282c3f;;
+    font-size: 14px;
+    font-weight: 700px;
+    margin-bottom: 25px;
+}
+
+.footer-column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column a
+{
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright
+{
+    color: #94969f;
+    text-align: center;
+    padding: 15px;
+}
